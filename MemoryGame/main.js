@@ -2,10 +2,11 @@ let config = {
     type: Phaser.AUTO, // webgl or canvas
     width: 1280,
     height: 720,
-    cols: 5,
+    cols: 2,
     rows: 2,
-    timeout: 3,
-    cards: [1, 2, 3, 4, 5],
+    timeout: 30,
+    level: 1,   
+    cards: [1, 2],
     scene: new GameScene("Game")
 }
 

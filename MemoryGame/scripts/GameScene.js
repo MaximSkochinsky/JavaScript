@@ -35,14 +35,17 @@ class GameScene extends Phaser.Scene {
         if (this.timeout <= 0) {
             this.timer.paused = true;
             this.sounds.timeout.play()
-            this.restart();
+            config.level = 1
+            this.restart()
         } else {
+            console.log('here')
             --this.timeout;
         }
     }
 
 
     createTimer() {
+        this.time.removeAllEvents()
         this.timer = this.time.addEvent({
             delay: 1000,
             callback: this.onTimerTick,
@@ -62,26 +65,68 @@ class GameScene extends Phaser.Scene {
        this.sounds.theme.play()
     }
 
-    create () {
-        this.timeout = config.timeout;
 
+    createLevel () {
+        switch(config.level){
+            case 1:
+                config.timeout = 30
+                config.rows = 2
+                config.cols = 2
+                config.cards = [1, 2]
+                break
+            case 2:
+                config.timeout = 20
+                config.rows = 2
+                config.cols = 3
+                config.cards = [1, 2, 3]
+                break
+            case 3:
+                config.timeout = 25
+                config.rows = 2
+                config.cols = 4
+                config.cards = [1, 2, 3, 4]
+                break
+            case 4:
+                config.timeout = 30
+                config.rows = 2
+                config.cols = 5
+                config.cards = [1, 2, 3, 4, 5]
+                break
+            case 5:
+                config.timeout = 25
+                config.rows = 2
+                config.cols = 5
+                config.cards = [1, 2, 3, 4, 5]
+                break
+            case 6:
+                config.timeout = 20
+                config.rows = 2
+                config.cols = 5
+                config.cards = [1, 2, 3, 4, 5]
+                break
+        }
+    }
+
+    create () {
+        this.createLevel()
+        this.timeout = config.timeout;
         this.createTimer();
         this.createSounds();
         this.createBackground();
         this.createText();
         this.createCards();
-        this.start();
+        this.start()
     }
     
    
 
     restart () {
-
+        console.log("restart")
         let count = 0;
         let onCardMoveComplete = () => {
             ++count;
             if (count >= this.cards.length) {
-                this.start();
+                this.create()
             }
         };
 
@@ -99,6 +144,7 @@ class GameScene extends Phaser.Scene {
     }
 
     start () {
+
         this.timeout = config.timeout;
         this.openedCard = null;
         this.openedCardsCount = 0;
@@ -169,7 +215,9 @@ class GameScene extends Phaser.Scene {
 
         if (this.openedCardsCount == this.cards.length / 2) {
             this.sounds.success.play()
-            this.restart();
+            config.level++
+            if (config.level > 6) config.level = 1
+            this.restart()
         }
     }
 
