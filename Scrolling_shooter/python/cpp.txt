@@ -1,0 +1,31 @@
+#include <cstdlib>
+
+
+using namespace std;
+
+int main()
+{
+    int size = 1000000;//максимальный размер строки
+    char * str = new char[size];
+    int q; 
+
+    cin.getline(str, size, '\n');
+    cin >> q;
+
+    int n = strlen(str);
+
+
+
+    int l, r;
+    for (int i = 0; i < q; i++) {
+        cin >> l >> r; // вводим границы 
+        for (int j = l - 1; j < r; j++) { // меняем для каждой буквы в булев массиве значение на обратное(false - true, true - false)
+            if (isupper(str[j])) str[j] = tolower(str[j]);
+            else str[j] = toupper(str[j]);
+        }
+    }
+
+    cout << str;
+
+
+}

@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "arrow-0",
+	"frame": {"x":707,"y":1,"w":92,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":92,"h":56},
+	"sourceSize": {"w":93,"h":60}
+},
+{
+	"filename": "arrow-1",
+	"frame": {"x":814,"y":14,"w":53,"h":11},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":24,"w":53,"h":11},
+	"sourceSize": {"w":93,"h":60}
+},
+{
+	"filename": "arrow-2",
+	"frame": {"x":801,"y":1,"w":11,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":3,"w":11,"h":56},
+	"sourceSize": {"w":93,"h":60}
+},
+{
+	"filename": "arrow-3",
+	"frame": {"x":814,"y":1,"w":56,"h":11},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":24,"w":56,"h":11},
+	"sourceSize": {"w":93,"h":60}
+},
+{
+	"filename": "Arrow",
+	"frame": {"x":1,"y":1,"w":704,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":704,"h":58},
+	"sourceSize": {"w":705,"h":60}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "arrow.png",
+	"format": "RGBA8888",
+	"size": {"w":871,"h":60},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e2058a74f841e47368496e9156514405:2ea55def566f6e0cdaf22fcc6314b77d:da7b7f302b584bc2843bb50b1ff3bd62$"
+}
+}
