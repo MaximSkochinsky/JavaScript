@@ -26,7 +26,7 @@ class Fire extends Phaser.Physics.Arcade.Sprite {
                 break
             case 'up':
                 this.setVelocityY(-this.velocity)
-                this.x += 20
+                this.x += 5
                 this.setFrame('arrow-0')
                 break
             case 'down':

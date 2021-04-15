@@ -1,6 +1,6 @@
 class Hero extends Phaser.Physics.Arcade.Sprite {
     constructor(scene) {
-        super(scene, 200, 50, 'man')
+        super(scene, 64, 64, 'man')
         this.scene = scene
         this.movable = false
         this.fires = []
@@ -14,7 +14,6 @@ class Hero extends Phaser.Physics.Arcade.Sprite {
         this.body.enable = true;
         this.body.collideWorldBounds = true
 
-        
         this.velocity = 100;
         this.acceleration = 0
         PlayerAnimations.createAnimations(this.scene)
@@ -30,7 +29,55 @@ class Hero extends Phaser.Physics.Arcade.Sprite {
         }
     }
 
+    getDirection(x, y) {
+        if (x - this.currentGoal.x < 0) return 'right' 
+        else if (x - this.currentGoal.x > 0) return 'left' 
+        else if (y - this.currentGoal.y > 0) return 'up' 
+        else if (y - this.currentGoal.y < 0) return 'down'
+        else return null
+    }
+
+    setDirection(x, y) {
+        switch(this.getDirection(x, y)){
+            case 'up':
+                if (this.anims.currentAnim) {
+                    if (this.anims.currentAnim.key != 'walkUp') this.anims.stop()
+                }
+                this.move('walkUp', 'up')
+                this.setVelocityX(0)
+                this.setVelocityY(-(this.velocity + this.acceleration))
+                break
+            case 'down':
+                if (this.anims.currentAnim) {
+                    if (this.anims.currentAnim.key != 'walkDown') this.anims.stop()
+                }
+                this.move('walkDown', 'down')
+                this.setVelocityX(0)
+                this.setVelocityY(this.velocity + this.acceleration)
+                break
+            case 'left':
+                if (this.anims.currentAnim) {
+                    if (this.anims.currentAnim.key != 'walkLeft') this.anims.stop()
+                }
+                this.move('walkLeft', 'left')
+                this.setVelocityY(0)
+                this.setVelocityX(-(this.velocity + this.acceleration))
+                break
+            case 'right':
+                if (this.anims.currentAnim) {
+                    if (this.anims.currentAnim.key != 'walkRight') this.anims.stop()
+                }
+                this.move('walkRight', 'right')
+                this.setVelocityY(0)
+                this.setVelocityX(this.velocity + this.acceleration)
+                break
+            default:
+                break;
+        }
+    }
+
     update() {
+       
         this.setVelocityY(0)
         this.setVelocityX(0)
         this.acceleration = 0
@@ -88,9 +135,6 @@ class Hero extends Phaser.Physics.Arcade.Sprite {
             this.anims.stop()
             this.movable = false
         }
-
-
-        
     }
 
     move(anim, direction) {
