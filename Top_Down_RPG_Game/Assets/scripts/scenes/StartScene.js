@@ -1,6 +1,9 @@
 class StartScene extends Phaser.Scene {
     constructor() {
         super('Start')
+        this.path = []
+        this.coordX = 0
+        this.coordY = 0
     }
 
     preload() {
@@ -9,7 +12,7 @@ class StartScene extends Phaser.Scene {
         this.load.image("terrain", "Assets/images/terrain_atlas.png")
         this.load.tilemapTiledJSON('map', "Assets/images/map/map.json")
         this.load.audio('shot', "Assets/audio/shot.mp3")
-        this.load.audio('witcher', "Assets/Witcher_Best/Kaer_Morhen.mp3")
+        this.load.audio('witcher', "Assets/Witcher_Best/Spikeroog.mp3")
     }
 
 
@@ -18,10 +21,25 @@ class StartScene extends Phaser.Scene {
         return tile.index;
     }
 
+
+    handle(pointer) {
+        this.gridBackup = this.grid.clone()
+        let x1 = Math.floor(this.player.x / 64)
+        let y1 = Math.floor(this.player.y / 64)
+
+        let x2 = Math.floor(pointer.x / 64)
+        let y2 = Math.floor(pointer.y / 64)
+
+
+        this.path = this.finder.findPath(x1, y1, x2, y2, this.gridBackup)
+        this.moveCharacter(this.path)
+    }
+
+
     create() {
 
+        this.input.on('pointerup', this.handle, this)
         this.sound.play('witcher')
-        this.finder = new EasyStar.js();
 
         this.map = this.add.tilemap('map')
         let terrain = this.map.addTilesetImage("terrain_atlas", "terrain")
@@ -48,12 +66,7 @@ class StartScene extends Phaser.Scene {
 
 
 
-        this.physics.add.collider(this.player, topLayer)
-        topLayer.setCollisionByProperty({collides: true})
-
-        this.physics.add.collider(this.player, botLayer)
-        botLayer.setCollisionByProperty({collides: true})
-        botLayer.setCollision([565, 566, 567, 158, 159])
+       
 
 
 
@@ -70,7 +83,7 @@ class StartScene extends Phaser.Scene {
         if(!properties[i].collides) acceptableTiles.push(i+1);
     }
     
-    console.log(acceptableTiles.indexOf(16))
+
 
 
     for (let i = 0; i < grid.length; i++) {
@@ -84,7 +97,7 @@ class StartScene extends Phaser.Scene {
         }
     }
 
-    console.log(grid)
+
 
 
     
@@ -102,21 +115,19 @@ class StartScene extends Phaser.Scene {
     this.grid = grid
 
 
-    var grid = new PF.Grid(this.grid.length, this.grid[0].length, this.grid);
-    console.log(grid)
+    this.grid = new PF.Grid(grid.length, grid[0].length, grid);
 
-    var finder = new PF.AStarFinder();
-
-
-    var path = finder.findPath(0, 0, 10, 2, grid)
-
-    console.log(path)
-
-    
+    this.finder = new PF.AStarFinder();
        
 }
 
     
+
+
+
+moveCharacter(path){
+     this.player.path = path
+};
 
 
     
