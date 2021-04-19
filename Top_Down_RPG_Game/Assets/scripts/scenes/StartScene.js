@@ -4,15 +4,18 @@ class StartScene extends Phaser.Scene {
         this.path = []
         this.coordX = 0
         this.coordY = 0
+        
     }
 
     preload() {
-        this.load.atlas('man', 'Assets/images/man.png', 'Assets/images/man.json')
+        this.load.atlas('man', 'Assets/images/characters/man/man.png', 'Assets/images/characters/man/man.json')
+        this.load.atlas('orc', 'Assets/images/characters/orc/orc.png', 'Assets/images/characters/orc/orc.json')
+        this.load.atlas('assasin', 'Assets/images/characters/assasin/assasin.png', 'Assets/images/characters/assasin/assasin.json')
         this.load.atlas('arrow', 'Assets/images/arrow.png', 'Assets/images/arrow.json')
         this.load.image("terrain", "Assets/images/terrain_atlas.png")
         this.load.tilemapTiledJSON('map', "Assets/images/map/map.json")
         this.load.audio('shot', "Assets/audio/shot.mp3")
-        this.load.audio('witcher', "Assets/Witcher_Best/Spikeroog.mp3")
+        this.load.audio('witcher', "Assets/Witcher_Best/02. Go Back Whence You Came.mp3")
     }
 
 
@@ -22,31 +25,26 @@ class StartScene extends Phaser.Scene {
     }
 
 
-    handle(pointer) {
+    handle(enemy) {
+        console.log('here')
         this.gridBackup = this.grid.clone()
-        let x1 = Math.floor(this.player.x / 64)
-        let y1 = Math.floor(this.player.y / 64)
+        let x1 = Math.floor(enemy.x / 64)
+        let y1 = Math.floor(enemy.y / 64)
 
-        let x2 = Math.floor(pointer.x / 64)
-        let y2 = Math.floor(pointer.y / 64)
-
+        let x2 = Math.floor(this.player.x / 64)
+        let y2 = Math.floor(this.player.y / 64)
 
         this.path = this.finder.findPath(x1, y1, x2, y2, this.gridBackup)
-        this.moveCharacter(this.path)
+
+        this.moveCharacter(this.path, enemy)
     }
 
 
     create() {
-
-        this.input.on('pointerup', this.handle, this)
         this.sound.play('witcher')
-
         this.map = this.add.tilemap('map')
         let terrain = this.map.addTilesetImage("terrain_atlas", "terrain")
-
         let botLayer = this.map.createLayer("bot", [terrain], 0, 0)
-
-
         var grid = [];
         for(var y = 0; y < this.map.height; y++){
             var col = [];
@@ -61,13 +59,28 @@ class StartScene extends Phaser.Scene {
 
         let topLayer = this.map.createLayer("top", [terrain], 0, 0).setDepth(1)
 
-        this.player = new Hero(this)
+        
+
+
+        this.player = new Hero({
+            scene: this,
+            x: 100,
+            y: 100,
+            texture: 'man', 
+            velocity: 300
+        })
+
+        this.enemies = new Enemies(this)
+
+
+        this.physics.add.collider(this.player, topLayer)
+        this.physics.add.collider(this.player, botLayer)
+
+
+        botLayer.setCollision(217)
+        topLayer.setCollisionByProperty({collides:true})
+
         this.cursors = this.input.keyboard.createCursorKeys()
-
-
-
-       
-
 
 
         var tileset = this.map.tilesets[0];
@@ -118,17 +131,32 @@ class StartScene extends Phaser.Scene {
     this.grid = new PF.Grid(grid.length, grid[0].length, grid);
 
     this.finder = new PF.AStarFinder();
-       
+
 }
 
-    
 
 
 
-moveCharacter(path){
-     this.player.path = path
+update() {
+    if (this.player.body.velocity.x != 0 || this.player.body.velocity.y != 0) {
+        this.enemies.getChildren().forEach(this.handle,this)
+    }
+}
+
+
+
+moveCharacter(path, enemy){
+        path.shift()
+        enemy.path = path
 };
 
 
+compare(a1, a2) {
+    return a1.length == a2.length && a1.every((v,i)=>v === a2[i])
+}
+
+
     
 }
+
+
