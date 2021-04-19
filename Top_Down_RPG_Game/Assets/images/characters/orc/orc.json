@@ -1,0 +1,1436 @@
+{"frames": [
+
+{
+	"filename": "orc-0",
+	"frame": {"x":109,"y":321,"w":32,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":32,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-1",
+	"frame": {"x":143,"y":321,"w":32,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":32,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-2",
+	"frame": {"x":208,"y":322,"w":30,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":18,"w":30,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-3",
+	"frame": {"x":281,"y":322,"w":38,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":38,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-4",
+	"frame": {"x":321,"y":322,"w":52,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":18,"w":52,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-5",
+	"frame": {"x":375,"y":322,"w":50,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":18,"w":50,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-6",
+	"frame": {"x":281,"y":322,"w":38,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":38,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-7",
+	"frame": {"x":1,"y":171,"w":22,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":19,"w":22,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-8",
+	"frame": {"x":33,"y":222,"w":25,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":25,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-9",
+	"frame": {"x":60,"y":223,"w":23,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":19,"w":23,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-10",
+	"frame": {"x":1,"y":33,"w":28,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":28,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-11",
+	"frame": {"x":313,"y":46,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-12",
+	"frame": {"x":29,"y":84,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-13",
+	"frame": {"x":299,"y":92,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-14",
+	"frame": {"x":377,"y":417,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":32,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-15",
+	"frame": {"x":440,"y":417,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":32,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-16",
+	"frame": {"x":229,"y":466,"w":30,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":30,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-17",
+	"frame": {"x":261,"y":466,"w":38,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":16,"w":38,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-18",
+	"frame": {"x":335,"y":466,"w":52,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":16,"w":52,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-19",
+	"frame": {"x":389,"y":466,"w":50,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":16,"w":50,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-20",
+	"frame": {"x":441,"y":466,"w":36,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":16,"w":36,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-21",
+	"frame": {"x":93,"y":135,"w":22,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":22,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-22",
+	"frame": {"x":61,"y":177,"w":25,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":25,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-23",
+	"frame": {"x":88,"y":181,"w":23,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":23,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-24",
+	"frame": {"x":233,"y":183,"w":28,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":19,"w":28,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-25",
+	"frame": {"x":412,"y":184,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-26",
+	"frame": {"x":449,"y":184,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-27",
+	"frame": {"x":1,"y":222,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":19,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-28",
+	"frame": {"x":240,"y":322,"w":39,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":39,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-29",
+	"frame": {"x":198,"y":369,"w":35,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":35,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-30",
+	"frame": {"x":235,"y":369,"w":30,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":30,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-31",
+	"frame": {"x":267,"y":369,"w":28,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":18,"w":28,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-32",
+	"frame": {"x":297,"y":369,"w":26,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":18,"w":26,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-33",
+	"frame": {"x":325,"y":369,"w":26,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":18,"w":26,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-34",
+	"frame": {"x":297,"y":369,"w":26,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":18,"w":26,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-35",
+	"frame": {"x":353,"y":369,"w":28,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":18,"w":28,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-36",
+	"frame": {"x":113,"y":229,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":19,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-37",
+	"frame": {"x":145,"y":229,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-38",
+	"frame": {"x":182,"y":229,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-39",
+	"frame": {"x":221,"y":229,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-40",
+	"frame": {"x":257,"y":230,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-41",
+	"frame": {"x":291,"y":230,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-42",
+	"frame": {"x":257,"y":230,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-43",
+	"frame": {"x":221,"y":229,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-44",
+	"frame": {"x":1,"y":505,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-45",
+	"frame": {"x":383,"y":369,"w":33,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":33,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-46",
+	"frame": {"x":418,"y":369,"w":28,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":28,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-47",
+	"frame": {"x":448,"y":369,"w":29,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":29,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-48",
+	"frame": {"x":479,"y":369,"w":29,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":29,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-49",
+	"frame": {"x":1,"y":408,"w":28,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":28,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-50",
+	"frame": {"x":31,"y":408,"w":30,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":30,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-51",
+	"frame": {"x":479,"y":466,"w":29,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":14,"w":29,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-52",
+	"frame": {"x":326,"y":230,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-53",
+	"frame": {"x":358,"y":230,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-54",
+	"frame": {"x":395,"y":230,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-55",
+	"frame": {"x":434,"y":230,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-56",
+	"frame": {"x":470,"y":230,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-57",
+	"frame": {"x":1,"y":268,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-58",
+	"frame": {"x":470,"y":230,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-59",
+	"frame": {"x":434,"y":230,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-60",
+	"frame": {"x":427,"y":322,"w":39,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":39,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-61",
+	"frame": {"x":468,"y":322,"w":39,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":39,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-62",
+	"frame": {"x":63,"y":414,"w":39,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":39,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-63",
+	"frame": {"x":40,"y":511,"w":38,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":38,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-64",
+	"frame": {"x":104,"y":416,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":17,"w":38,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-65",
+	"frame": {"x":32,"y":361,"w":38,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":17,"w":38,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-66",
+	"frame": {"x":144,"y":416,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":17,"w":38,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-67",
+	"frame": {"x":80,"y":513,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":17,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-68",
+	"frame": {"x":184,"y":417,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":17,"w":38,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-69",
+	"frame": {"x":36,"y":269,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-70",
+	"frame": {"x":78,"y":274,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-71",
+	"frame": {"x":343,"y":1,"w":31,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":31,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-72",
+	"frame": {"x":376,"y":1,"w":31,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":19,"w":31,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-73",
+	"frame": {"x":113,"y":275,"w":39,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":39,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-74",
+	"frame": {"x":154,"y":275,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-75",
+	"frame": {"x":191,"y":275,"w":39,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":19,"w":39,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-76",
+	"frame": {"x":232,"y":276,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-77",
+	"frame": {"x":274,"y":276,"w":31,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":19,"w":31,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-78",
+	"frame": {"x":119,"y":513,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-79",
+	"frame": {"x":158,"y":514,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-80",
+	"frame": {"x":236,"y":515,"w":37,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-81",
+	"frame": {"x":275,"y":515,"w":37,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":37,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-82",
+	"frame": {"x":314,"y":515,"w":38,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":16,"w":38,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-83",
+	"frame": {"x":197,"y":515,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-84",
+	"frame": {"x":354,"y":515,"w":37,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-85",
+	"frame": {"x":393,"y":515,"w":36,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":36,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-86",
+	"frame": {"x":431,"y":515,"w":37,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":37,"h":48},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-87",
+	"frame": {"x":307,"y":276,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-88",
+	"frame": {"x":349,"y":276,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-89",
+	"frame": {"x":409,"y":1,"w":31,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":19,"w":31,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-90",
+	"frame": {"x":442,"y":1,"w":31,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":31,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-91",
+	"frame": {"x":384,"y":276,"w":39,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":39,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-92",
+	"frame": {"x":425,"y":276,"w":35,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":19,"w":35,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-93",
+	"frame": {"x":462,"y":276,"w":39,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":19,"w":39,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-94",
+	"frame": {"x":34,"y":315,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-95",
+	"frame": {"x":1,"y":314,"w":31,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":31,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-96",
+	"frame": {"x":475,"y":1,"w":32,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":20,"w":32,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-97",
+	"frame": {"x":213,"y":1,"w":31,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":22,"w":31,"h":42},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-98",
+	"frame": {"x":246,"y":1,"w":30,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":22,"w":30,"h":42},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-99",
+	"frame": {"x":76,"y":320,"w":31,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":20,"w":31,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-100",
+	"frame": {"x":31,"y":38,"w":38,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":20,"w":38,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-101",
+	"frame": {"x":134,"y":45,"w":41,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":20,"w":41,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-102",
+	"frame": {"x":71,"y":39,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-103",
+	"frame": {"x":143,"y":1,"w":33,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":21,"w":33,"h":42},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-104",
+	"frame": {"x":106,"y":43,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-105",
+	"frame": {"x":177,"y":45,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-106",
+	"frame": {"x":219,"y":45,"w":45,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":19,"w":45,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-107",
+	"frame": {"x":266,"y":46,"w":45,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":19,"w":45,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-108",
+	"frame": {"x":224,"y":417,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":32,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-109",
+	"frame": {"x":258,"y":417,"w":30,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":30,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-110",
+	"frame": {"x":177,"y":321,"w":29,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":18,"w":29,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-111",
+	"frame": {"x":1,"y":360,"w":29,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":17,"w":29,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-112",
+	"frame": {"x":290,"y":417,"w":37,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":37,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-113",
+	"frame": {"x":329,"y":417,"w":46,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":46,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-114",
+	"frame": {"x":350,"y":46,"w":33,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":33,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-115",
+	"frame": {"x":178,"y":1,"w":33,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":21,"w":33,"h":42},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-116",
+	"frame": {"x":385,"y":46,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-117",
+	"frame": {"x":413,"y":46,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-118",
+	"frame": {"x":455,"y":46,"w":45,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":45,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-119",
+	"frame": {"x":124,"y":91,"w":45,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":45,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-120",
+	"frame": {"x":278,"y":1,"w":32,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":20,"w":32,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-121",
+	"frame": {"x":312,"y":1,"w":29,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":21,"w":29,"h":43},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-122",
+	"frame": {"x":1,"y":79,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":20,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-123",
+	"frame": {"x":66,"y":85,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-124",
+	"frame": {"x":72,"y":366,"w":30,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":18,"w":30,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-125",
+	"frame": {"x":94,"y":89,"w":28,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":28,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-126",
+	"frame": {"x":171,"y":91,"w":29,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":29,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-127",
+	"frame": {"x":202,"y":91,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-128",
+	"frame": {"x":266,"y":92,"w":31,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":31,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-129",
+	"frame": {"x":234,"y":91,"w":30,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":30,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-130",
+	"frame": {"x":331,"y":92,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-131",
+	"frame": {"x":359,"y":92,"w":26,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":20,"w":26,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-132",
+	"frame": {"x":85,"y":227,"w":26,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":26,"h":45},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-133",
+	"frame": {"x":387,"y":92,"w":22,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":19,"w":22,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-134",
+	"frame": {"x":411,"y":92,"w":27,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":27,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-135",
+	"frame": {"x":440,"y":92,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-136",
+	"frame": {"x":25,"y":130,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-137",
+	"frame": {"x":117,"y":137,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-138",
+	"frame": {"x":156,"y":137,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-139",
+	"frame": {"x":192,"y":137,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-140",
+	"frame": {"x":266,"y":138,"w":38,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":38,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-141",
+	"frame": {"x":306,"y":138,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-142",
+	"frame": {"x":348,"y":138,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-143",
+	"frame": {"x":387,"y":138,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-144",
+	"frame": {"x":476,"y":92,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-145",
+	"frame": {"x":387,"y":138,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-146",
+	"frame": {"x":377,"y":417,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":16,"w":32,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-147",
+	"frame": {"x":104,"y":368,"w":28,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":28,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-148",
+	"frame": {"x":134,"y":368,"w":27,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-149",
+	"frame": {"x":411,"y":417,"w":27,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-150",
+	"frame": {"x":474,"y":417,"w":26,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":26,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-151",
+	"frame": {"x":1,"y":456,"w":26,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":26,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-152",
+	"frame": {"x":29,"y":456,"w":26,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":26,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-153",
+	"frame": {"x":57,"y":462,"w":27,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-154",
+	"frame": {"x":86,"y":464,"w":27,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-155",
+	"frame": {"x":115,"y":464,"w":26,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":26,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-156",
+	"frame": {"x":143,"y":464,"w":27,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-157",
+	"frame": {"x":172,"y":465,"w":26,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":16,"w":26,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-158",
+	"frame": {"x":200,"y":466,"w":27,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":27,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-159",
+	"frame": {"x":1,"y":125,"w":22,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":22,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-160",
+	"frame": {"x":64,"y":131,"w":27,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":19,"w":27,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-161",
+	"frame": {"x":230,"y":137,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-162",
+	"frame": {"x":425,"y":138,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-163",
+	"frame": {"x":464,"y":138,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-164",
+	"frame": {"x":25,"y":176,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":34,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-165",
+	"frame": {"x":113,"y":183,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-166",
+	"frame": {"x":151,"y":183,"w":38,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":38,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-167",
+	"frame": {"x":191,"y":183,"w":40,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":40,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-168",
+	"frame": {"x":263,"y":184,"w":37,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":19,"w":37,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-169",
+	"frame": {"x":302,"y":184,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-170",
+	"frame": {"x":340,"y":184,"w":32,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":19,"w":32,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-171",
+	"frame": {"x":374,"y":184,"w":36,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":19,"w":36,"h":44},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-172",
+	"frame": {"x":301,"y":466,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":32,"h":47},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-173",
+	"frame": {"x":163,"y":368,"w":33,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":17,"w":33,"h":46},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-174",
+	"frame": {"x":109,"y":1,"w":32,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":23,"w":32,"h":40},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-175",
+	"frame": {"x":37,"y":1,"w":32,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":27,"w":32,"h":35},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-176",
+	"frame": {"x":1,"y":1,"w":34,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":32,"w":34,"h":30},
+	"sourceSize": {"w":64,"h":64}
+},
+{
+	"filename": "orc-177",
+	"frame": {"x":71,"y":1,"w":36,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":27,"w":36,"h":36},
+	"sourceSize": {"w":64,"h":64}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "orc.png",
+	"format": "RGBA8888",
+	"size": {"w":509,"h":564},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:85acfab88433bfe7abb76c556244e4c0:749bfff2fbf17094d0522970316a6f15:8d2f034a042f5e42d835b3511e9c1732$"
+}
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Side Scroller Shooter Game</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        canvas {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        @font-face {
+            font-family: 'CurseCasual';
+            src: url('assets/fonts/CurseCasual.ttf');
+        }
+        .fontPreload {
+            font-family: 'CurseCasual';
+            position: absolute;
+            left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fontPreload">.</div>
+    <script src = "scripts/scenes/phaser.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.53.1/dist/phaser.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.53.1/dist/phaser.min.js"></script>
+    <script src="assets/scripts/classes/LoadingBar"></script>
+    <script src="assets/scripts/entities/Boom.js"></script>
+    <script src="assets/scripts/entities/MovableObject.js"></script>
+    <script src="assets/scripts/entities/Fires.js"></script>
+    <script src="assets/scripts/entities/Fire.js"></script>
+    <script src="assets/scripts/entities/Enemies.js"></script>
+    <script src="assets/scripts/entities/Enemy.js"></script>
+    <script src="assets/scripts/entities/Player.js"></script>
+    <script src="assets/scripts/scenes/StartScene.js"></script>
+    <script src="assets/scripts/scenes/BootScene.js"></script>
+    <script src="assets/scripts/scenes/PreloadScene.js"></script>
+    <script src="assets/scripts/scenes/GameScene.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>

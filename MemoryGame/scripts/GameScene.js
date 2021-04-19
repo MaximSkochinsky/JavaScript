@@ -26,6 +26,14 @@ class GameScene extends Phaser.Scene {
             fill: '#ffffff'
         })
     }
+
+
+    drawLevel () {
+        this.levelText = this.add.text(10, 380, "Level: " + config.level, {
+            font: '36px Arial',
+            fill: '#ffffff'
+        })
+    }
     
     
     onTimerTick () {
@@ -38,7 +46,6 @@ class GameScene extends Phaser.Scene {
             config.level = 1
             this.restart()
         } else {
-            console.log('here')
             --this.timeout;
         }
     }
@@ -55,6 +62,7 @@ class GameScene extends Phaser.Scene {
     }
 
     createSounds() {
+        this.sounds = []
         this.sounds = {
             card: this.sound.add('card', {volume: 1}),
             complete: this.sound.add('complete', {volume: 1}),
@@ -113,6 +121,7 @@ class GameScene extends Phaser.Scene {
         this.createTimer();
         this.createSounds();
         this.createBackground();
+        this.drawLevel()
         this.createText();
         this.createCards();
         this.start()
@@ -126,6 +135,7 @@ class GameScene extends Phaser.Scene {
         let onCardMoveComplete = () => {
             ++count;
             if (count >= this.cards.length) {
+                this.sounds.theme.stop()
                 this.create()
             }
         };
